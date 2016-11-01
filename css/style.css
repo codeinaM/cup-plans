@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Miso';
+	src: url(../fonts/miso-regular-webfont.woff), url(../fonts/miso-regular-webfont.woff2), url(../fonts/miso-bold-webfont.woff2), url(../fonts/miso-bold-webfont.woff);
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+body{
+	font: 400 56px/2.3 'Miso', Arial, sans-serif;
+	background-color: #FBDC7D;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 30px 80px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-card {
+	background-color: #FFF;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	border-radius: 3px;
+	width: 361px;
+	height: 441px;
+}
+.ba-cup
+.ba-cup__price {
+	font: 700 70px/2.9 'Miso', 'Lato',Arial,sans-serif ;
+	color: #02995B;
+	padding-bottom: 23px;
+}
+.ba-cup__img {
+	margin: 0;
+	padding: 0;
+}
+.ba-card__long {
+	height: 500px;
+}
+.ba-cup__title {
+	font: 400 56px/2.3 'Miso', Arial, sans-serif;
+}
+.ba-cup__span {
+	font: 300 20px/0.7 'Lato', 'Miso', Arial, sans-serif;
+}
